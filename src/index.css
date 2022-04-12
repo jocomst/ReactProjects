@@ -17,17 +17,18 @@ body {
   display: grid;
   gap: 2rem;
 }
-
+/* 
 @media screen and (min-width: 768px) {
   .booklist {
     grid-template-columns: repeat(3, 1fr);
   }
-}
+} */
 
 .book {
   background: #fff;
   border-radius: 1rem;
   padding: 1rem 2rem;
+  align-items: center;
 }
 
 .book h1 {
